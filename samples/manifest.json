@@ -1,0 +1,136 @@
+{
+  "generator": "v2",
+  "commands": {
+    "clean.txt/period": {
+      "code": 0,
+      "expected": "clean.period.expected",
+      "bytes": 10940,
+      "sha256": "8f20797c2367ce07215584b9342e4dc6214ccc56c328119a5884cfc108a647cd"
+    },
+    "clean.txt/type": {
+      "code": 0,
+      "expected": "clean.type.expected",
+      "bytes": 4531,
+      "sha256": "67ae30dab84826e24058575df9fdddccfc07cf775f9450d168d4beacd8bfc247"
+    },
+    "clean.txt/errors": {
+      "code": 0,
+      "expected": "clean.errors.expected",
+      "bytes": 42,
+      "sha256": "495f038204ac8078759a67bc53cc68a3c8e62ed7094411589ba68de85c74f764"
+    },
+    "dirty.txt/period": {
+      "code": 1,
+      "expected": "dirty.period.expected",
+      "bytes": 18589,
+      "sha256": "03874930d33926fe0c6f41b5746d8050eb9a57b30247a14572cb92919605a047"
+    },
+    "dirty.txt/type": {
+      "code": 1,
+      "expected": "dirty.type.expected",
+      "bytes": 120,
+      "sha256": "4b15662125aa6c55db4007bfea0ebb50695e985eaa46121d7372b54bb0c79cbf"
+    },
+    "dirty.txt/errors": {
+      "code": 1,
+      "expected": "dirty.errors.expected",
+      "bytes": 13460,
+      "sha256": "c4e6249ed634677d8f00a5659b5672fdeef529cbb307f9204474156f492659f2"
+    },
+    "empty.txt/period": {
+      "code": 0,
+      "expected": "empty.period.expected",
+      "bytes": 14,
+      "sha256": "0bf0b0dc2587040026bac358ab2fa6091c9e2dce34e350fa814bd2813d8466ee"
+    },
+    "empty.txt/type": {
+      "code": 0,
+      "expected": "empty.type.expected",
+      "bytes": 14,
+      "sha256": "0bf0b0dc2587040026bac358ab2fa6091c9e2dce34e350fa814bd2813d8466ee"
+    },
+    "empty.txt/errors": {
+      "code": 0,
+      "expected": "empty.errors.expected",
+      "bytes": 40,
+      "sha256": "1f0fde09ab59e00ef6d6f86154e4734f14885e2921a23fba4f3155964298a5fc"
+    },
+    "huge.txt/period": {
+      "code": 0,
+      "bytes": 148000020,
+      "sha256": "98129b416188bdf580824f44e0c2933b2b8f494b42b35401e26a4ff54159cd8d"
+    },
+    "huge.txt/type": {
+      "code": 0,
+      "bytes": 14,
+      "sha256": "0bf0b0dc2587040026bac358ab2fa6091c9e2dce34e350fa814bd2813d8466ee"
+    },
+    "huge.txt/errors": {
+      "code": 0,
+      "bytes": 46,
+      "sha256": "91b0718e90fb2f591afb0eec5dc74866030de25a8e1890bf8fc9d2ffe59cac9f"
+    }
+  },
+  "files": {
+    "clean.errors.expected": {
+      "bytes": 42,
+      "sha256": "495f038204ac8078759a67bc53cc68a3c8e62ed7094411589ba68de85c74f764"
+    },
+    "clean.expected": {
+      "bytes": 10940,
+      "sha256": "8f20797c2367ce07215584b9342e4dc6214ccc56c328119a5884cfc108a647cd"
+    },
+    "clean.period.expected": {
+      "bytes": 10940,
+      "sha256": "8f20797c2367ce07215584b9342e4dc6214ccc56c328119a5884cfc108a647cd"
+    },
+    "clean.txt": {
+      "bytes": 12937,
+      "sha256": "81a327a32e253b551b10dc0aa366089714996578f6a2ed87a83cb73e84d4bd4b"
+    },
+    "clean.type.expected": {
+      "bytes": 4531,
+      "sha256": "67ae30dab84826e24058575df9fdddccfc07cf775f9450d168d4beacd8bfc247"
+    },
+    "dirty.errors.expected": {
+      "bytes": 13460,
+      "sha256": "c4e6249ed634677d8f00a5659b5672fdeef529cbb307f9204474156f492659f2"
+    },
+    "dirty.october.expected": {
+      "bytes": 327,
+      "sha256": "b1f4327847800a1a3fb03970dc8388a3cfdad9982d7f9734cf09dd04e2ef332f"
+    },
+    "dirty.period.expected": {
+      "bytes": 18589,
+      "sha256": "03874930d33926fe0c6f41b5746d8050eb9a57b30247a14572cb92919605a047"
+    },
+    "dirty.txt": {
+      "bytes": 30194,
+      "sha256": "cec98d05c8f256f263cf828cf892e686871c6cf01544320d86b0332538481c31"
+    },
+    "dirty.type.expected": {
+      "bytes": 120,
+      "sha256": "4b15662125aa6c55db4007bfea0ebb50695e985eaa46121d7372b54bb0c79cbf"
+    },
+    "empty.errors.expected": {
+      "bytes": 40,
+      "sha256": "1f0fde09ab59e00ef6d6f86154e4734f14885e2921a23fba4f3155964298a5fc"
+    },
+    "empty.period.expected": {
+      "bytes": 14,
+      "sha256": "0bf0b0dc2587040026bac358ab2fa6091c9e2dce34e350fa814bd2813d8466ee"
+    },
+    "empty.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "empty.type.expected": {
+      "bytes": 14,
+      "sha256": "0bf0b0dc2587040026bac358ab2fa6091c9e2dce34e350fa814bd2813d8466ee"
+    },
+    "huge.txt": {
+      "bytes": 166000000,
+      "sha256": "d81847fe50c53b930f56ce532a7ad7849bfd6055a1693060f331b2761c703da2"
+    }
+  }
+}
